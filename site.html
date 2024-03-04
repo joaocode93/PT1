@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Barbearia Santos</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+  <header>
+    <h1>Barbearia Santos</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#vantagens">Vantagens</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="feature-container">
+    <section id="sobre" class="feature">
+      <h2>Sobre Nós</h2>
+      <img src="shop2.jpeg" alt="Barbearia Santos">
+      <p>Conheça um pouco mais sobre a Barbearia Santos e nossa paixão por cortes de cabelo e barba.</p>
+    </section>
+
+    <section id="servicos" class="feature">
+      <h2>Serviços</h2>
+      <img src="shop3.jpeg" alt="Barbearia Santos">
+      <p>Oferecemos uma variedade de serviços, incluindo cortes de cabelo, barba, e tratamentos especiais para cuidar da sua aparência.</p>
+    </section>
+
+    <section id="vantagens" class="feature">
+      <h2>Vantagens</h2>
+      <img src="shop1.jpeg" alt="Barbearia Santos">
+      <p>Na Barbearia Santos, você pode esperar atendimento de qualidade, profissionais experientes e um ambiente amigável.</p>
+    </section>
+  </section>
+
+  <section class="contact-container">
+    <section id="contato">
+      <h2>Contato</h2>
+      <form action="enviar.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Barbearia Santos. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
